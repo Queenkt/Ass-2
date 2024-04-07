@@ -57,15 +57,12 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
     </tr>
 </table>
 <form>
-
   <h2>Contact Me</h2>
   <form id="contactForm" action="#" method="post" onsubmit="return validateForm()">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br>
-
    <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br>
-
   <label for="message">Message:</label><br>
     <textarea id="message" name="message" required></textarea><br>
 
@@ -76,11 +73,9 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
       <option value="medium">Medium</option>
       <option value="high">High</option>
     </select><br>
-
  <input type="submit" value="Submit">
   </form>
 </div>
-
 <script>
 function validateForm() {
   var name = document.getElementById("name").value;
